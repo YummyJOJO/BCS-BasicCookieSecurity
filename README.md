@@ -15,7 +15,7 @@
 
 1. 下载或克隆项目：
     ```bash
-    git clone https://github.com/your-username/BasicCookieSecurity.git
+    git clone https://github.com/your-username/BCS-BasicCookieSecurity.git
     ```
    
 2. 查看 `/examples` 目录中的示例代码，学习如何在实际项目中应用这些安全措施。
