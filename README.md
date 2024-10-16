@@ -1,34 +1,38 @@
 # BasicCookieSecurity
+This project is available in both English and Chinese.
 
-## 简介
-**BasicCookieSecurity** 是一个用于记录和分享我在学习 Web 开发中，关于 Cookie 安全实践的项目。这个项目包含了一些基础的 Cookie 安全知识和最佳实践，帮助开发者在 Web 应用中正确、安全地使用和管理 Cookie。
+- [English Version](README.md)
+- [中文版](README.zh.md)
 
-## 内容
-在本项目中，我总结了一些关于 Cookie 的基础安全知识，包括但不限于以下内容：
-- **HTTPOnly 和 Secure 标志**：确保 Cookie 不能通过 JavaScript 获取，并且只能在 HTTPS 连接上传输。
-- **SameSite 属性**：用于防止跨站请求伪造（CSRF）攻击，通过限制 Cookie 的跨站发送。
-- **Cookie 过期时间**：设置合理的 Cookie 有效期，避免长时间保存敏感信息。
-- **避免 Cookie 泄露**：通过合理配置，减少 Cookie 被窃取和利用的风险。
+## Introduction
+**BasicCookieSecurity** is a project to document and share my learning about cookie security practices in web development. It covers basic cookie security knowledge and best practices to help developers use and manage cookies correctly and securely in web applications.
 
-## 如何使用
-你可以将这个仓库作为学习资源，了解如何在自己的 Web 应用中安全地使用 Cookie。项目中的示例代码和注释说明了如何配置安全的 Cookie。
+## Content
+In this project, I’ve summarized some fundamental cookie security knowledge, including but not limited to the following:
+- **HTTPOnly and Secure flags**: Ensures cookies are not accessible via JavaScript and can only be transmitted over HTTPS connections.
+- **SameSite attribute**: Prevents Cross-Site Request Forgery (CSRF) attacks by limiting cross-site cookie transmissions.
+- **Cookie expiration**: Sets a reasonable expiration time to avoid storing sensitive information for too long.
+- **Preventing cookie leakage**: Minimizes the risk of cookies being stolen and exploited through proper configuration.
 
-1. 下载或克隆项目：
+## How to Use
+You can use this repository as a learning resource to understand how to securely use cookies in your own web applications. The sample code and comments in the project demonstrate how to configure cookies securely.
+
+1. Download or clone the project:
     ```bash
     git clone https://github.com/your-username/BCS-BasicCookieSecurity.git
     ```
-   
-2. 查看 `/examples` 目录中的示例代码，学习如何在实际项目中应用这些安全措施。
 
-## 贡献
-如果你有任何建议或改进的想法，欢迎通过 Pull Request 的形式进行贡献。
+2. Check the sample code in the `/examples` directory to learn how to apply these security measures in real-world projects.
 
-步骤：
-1. Fork 本项目
-2. 创建你的分支：`git checkout -b feature/your-feature`
-3. 提交你的更改：`git commit -m 'Add some feature'`
-4. 推送到你的分支：`git push origin feature/your-feature`
-5. 创建一个 Pull Request
+## Contribution
+If you have any suggestions or ideas for improvement, feel free to contribute through a Pull Request.
 
-## 许可
-本项目基于 MIT 许可，详情请查看 [LICENSE](LICENSE) 文件。
+Steps:
+1. Fork the repository
+2. Create your branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE) file.
